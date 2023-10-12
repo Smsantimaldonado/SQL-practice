@@ -1,0 +1,36 @@
+Ejercicio: Torneo de Tenis
+
+Un club de deportes necesita de una base de datos para gestionar el torneo de tenis que realizará.
+Para esto, el encargado del club manifiesta que necesitaria almacenar los datos de los jugadores/participantes,
+las diferentes categorías (con sus respectivos rangos de edad y sexo) y las inscripciones de cada uno de los
+participantes en donde se debe especificar si el mismo abonó o no la inscripción).
+Sugiere como estructura de las tablas lo siguiente:
+
+Modelado:
+• Participantes: dni_participante, apellido, nombre, dirección, edad, teléfono, sexo
+• Categorías: id_categoria, nombre, edad_min, edad_max, sexo
+• Inscripciones: num_inscripcion, fecha_ insc, abono_inscrip
+• Agregar registros a las tablas para poder realizar consultas.
+
+El encargado manifestó que las categorías presentes en el torneo serán:
+• Damas A (18 a 34 años)
+• Damas B (de 35 a 45 años)
+• Damas C (de 46 a 100 años)
+• Caballeros A (de 18 a 34 años)
+• Caballeros B (de 35 a 50 años)
+• Caballeros C (de 51 a 100 años)
+• Juveniles Varones (de 13 a 17 años)
+• Juveniles Mujeres (de 13 a 17 años)
+
+Se solicita:
+• Crear una nueva base de datos llamada "torneo_tenis". Determinar al mismo tiempo las relaciones correspondientes.
+• Asignar las correspondientes primary keys, foreign keys y tipos de datos.
+
+Consultas SQL:
+• Contar la cantidad total de participantes.
+• Obtener la lista completa de todos los participantes.
+• Obtener la lista completa de todas las categorías.
+• Obtener la cantidad de participantes mujeres (sin importar categoría).
+• Obtener el nombre y apellido de los inscriptos en la categoría "Caballeros B"
+• Obtener los datos de los participantes (de cualquier género) que tengan una edad entre 25 y 37 años.
+• Obtener la lista completa de inscripciones, especificando nombre y apellido de cada uno de los inscriptos, sin diferenciar categoría.
