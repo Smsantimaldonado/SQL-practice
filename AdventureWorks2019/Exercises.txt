@@ -1,6 +1,5 @@
 https://www.linkedin.com/pulse/ejercicios-sql-server-rocio-lopez/?originalSubdomain=es
 
-Lo voy a ir actualizando a medida que se me ocurran, encuentre o considere interesantes.
 1.Traer el FirstName y LastName de Person.Person cuando el FirstName sea Mark.
 2.¿Cuántas filas hay dentro de Person.Person?
 3.Traer las 100 primeras filas de Production.Product donde el ListPrice no es 0
@@ -34,5 +33,3 @@ Lo voy a ir actualizando a medida que se me ocurran, encuentre o considere inter
 31.Usando Production.Product si las columnas MakeFlag y FinishedGoodsFlag son iguales, que devuelva NULL
 32.Usando Production.Product si el valor en color no es NULL devolver “Sin color”. Si el color sí está, devolver el color. Se puede hacer de dos maneras, desarrollar ambas.
 33.Usando Person.Person y Person.Password hacer un INNER JOIN trayendo FirstName, LastName y PasswordHash.
-
-Les dejo también el SQLZoo de AdventureWorks > https://sqlzoo.net/wiki/AdventureWorks
